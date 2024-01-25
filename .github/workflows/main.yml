@@ -58,19 +58,6 @@ jobs:
                        name="kevzoj_Cruel-v5.2-HVE5"   \
                        toolchain=$TOOLCHAIN      \
                        os_patch_level=2023-08    \
-                       +magisk                   \
-                       +nohardening              \
-                       +ttl                      \
-                       +wireguard                \
-                       +cifs                     \
-                       +sdfat                    \
-                       +ntfs                     \
-                       +force_dex_wqhd           \
-                       +morosound                \
-                       +boeffla_wl_blocker       \
-                       +mass_storage             \
-                       +usb_serial               \
-                       +fp_boost                 \
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
